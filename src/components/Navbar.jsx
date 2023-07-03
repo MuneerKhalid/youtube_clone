@@ -20,17 +20,20 @@ const Navbar = () => (
       to="/" 
       style={{ 
         display: 'flex', 
-        alignItems: 'center' 
+        alignItems: 'center',
+        color: '#fff',
+        fontSize: '20px',
+        fontWeight: 'bold',
+        justifyContent: 'space-between' 
       }}
     >
       <img 
         src={logo} 
         alt="logo" 
         height={45}  
-      />
-
+      /> | Muneer Khalid
     </Link>
-
+    
     <SearchBar />
   </Stack>
 )
